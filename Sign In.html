@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign In</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #ffffff;
+      border-bottom: 1px solid #cccccc;
+    }
+    .logo img {
+      width: 100%;
+      height: auto;
+    }
+    .top-right {
+      margin-right: 20px;
+      text-align: right;
+    }
+    .top-right a {
+      margin-left: 10px;
+    }
+    .content-box {
+      max-width: 400px;
+      margin: 20px auto;
+      text-align: right;
+    }
+    .image-container {
+      float: left;
+      margin-right: 20px;
+      border: 1px solid #cccccc;
+      padding: 10px;
+    }
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+    h1 {
+      text-align: center;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      border: 1px solid #cccccc;
+      background-image: url('mail-icon.png');
+      background-repeat: no-repeat;
+      background-position: right center;
+      padding-right: 40px;
+    }
+    input[type="password"] {
+      background-image: url('lock-icon.png');
+    }
+    .remember-me {
+      margin-bottom: 10px;
+    }
+    .forgot-password {
+      text-align: right;
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #f6faf7;
+      color: #000000;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    input[type="submit"]:hover {
+      background-color: #848181;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <div class="top-right">
+      <a href="#">Sign In</a>
+      <a href="#">Register</a>
+    </div>
+  </div>
+  <div class="content-box">
+    <h1>Sign In</h1>
+    <form>
+      <input type="text" placeholder="Email" name="email" required>
+      <input type="password" placeholder="Password" name="password" required>
+      <div class="remember-me">
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Remember me</label>
+      </div>
+      <div class="forgot-password">
+        <a href="#">Forgot password?</a>
+      </div>
+      <input type="submit" value="Sign In">
+    </form>
+  </div>
+  <div class="image-container">
+    <img src="image.jpg" alt="Image">
+  </div>
+</body>
+</html>
