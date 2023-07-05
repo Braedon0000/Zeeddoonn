@@ -8,10 +8,7 @@ import javax.swing.JOptionPane;
 import za.ac.cput.marathoneventregistration.Connection.DBConnection;
 import za.ac.cput.marathoneventregistration.domain.Race;
 
-/**
- *
- * @author Leonard
- */
+
 public class RaceDao {
 
     private Connection con;
