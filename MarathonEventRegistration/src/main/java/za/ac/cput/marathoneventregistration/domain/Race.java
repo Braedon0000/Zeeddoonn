@@ -1,10 +1,7 @@
 
 package za.ac.cput.marathoneventregistration.domain;
 
-/**
- *
- * @author Leonard
- */
+
 public class Race 
 {
     private String RaceCode;
