@@ -5,10 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- *
- * @author Leonard
- */
+
 public class DBConnection 
 {
     public static Connection derbyConnection() throws SQLException
