@@ -19,10 +19,7 @@ import javax.swing.JTextField;
 import za.ac.cput.marathoneventregistration.dao.RaceDao;
 import za.ac.cput.marathoneventregistration.domain.Race;
 
-/**
- *
- * @author Leonard
- */
+
 public class MarathonEventGui extends JFrame {
 
     private JPanel panelNorth, panelNorth1, panelSouth, panelCenter, panelCenter1, panelCenter2, panelCenter3, panelCenter4, panelCenter5;
